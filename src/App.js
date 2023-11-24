@@ -24,13 +24,13 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import NewEventPage from "./pages/NewEventPage";
 import RootLayout from "./pages/Root";
+import EditEventPage from "./pages/EditEventPage";
+import EventsRootLayout from "./pages/EventsRoot";
+import ErrorPage from "./pages/Error";
+import EventsPage, { loader as eventsLoader } from "./pages/Events";
 import EventDetailPage, {
   loader as eventDetailLoader,
 } from "./pages/EventDetailPage";
-import EditEventPage from "./pages/EditEventPage";
-import EventsRootLayout from "./pages/EventsRoot";
-import EventsPage, { loader as eventsLoader } from "./pages/Events";
-import ErrorPage from "./pages/Error";
 
 const router = createBrowserRouter([
   {
