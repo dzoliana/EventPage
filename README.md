@@ -2,7 +2,31 @@
 
 ## Project summary
 
-The project represents an exercise in learning react router. Using loader and action functions, error handling, using hooks useRouteLoaderData, useFetcher...
+The project represents an exercise in learning React Router.
+
+### General Route Configuration
+
+- how to generally configure routes to ensure the loading of different components for different paths
+
+### Error Handling and Layout Setup
+
+- how to handle errors and set up a layout that include multiple routes
+
+### Nested Routes
+
+- Explore nested routes, allowing for a structured hierarchy of routes
+
+### Data Fetching and Submission
+
+- setting up data fetching and submission using loaders and actions
+
+### Advanced Use Cases
+
+- understood advanced use cases, such as utilizing useFetcher for fetching or loading data behind the scenes without navigation
+
+### Deferred Data Fetching
+
+- "defer" feature for deferring data fetching, useful in cases of slow backends or when you want to display some data before all data is available
 
 ## Getting started
 

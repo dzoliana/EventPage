@@ -31,7 +31,7 @@ function EventDetailPage() {
       </Suspense>
     </>
 
-    /*     <EventItem event={data.event} />
+    /* <EventItem event={data.event} />
     <EventsList />  */
   );
 }
