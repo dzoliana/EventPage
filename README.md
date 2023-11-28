@@ -1,5 +1,11 @@
 # Event Page Project
 
+## Project summary
+
+The project represents an exercise in learning react router. Using loader and action functions, error handling, using hooks useRouteLoaderData, useFetcher...
+
+## Getting started
+
 This project actually contains two projects:
 
 - A React.js application (i.e., the frontend SPA)
