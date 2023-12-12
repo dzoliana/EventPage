@@ -4,12 +4,52 @@
 
 This project branch represents an exercise in learning Authentication. Authentication involves securing certain backend routes, making them inaccessible to anyone without authentication.
 
+<h4 align="center">Welcome page</h4>
+
+<p align="center">
+ <img src="/src/pics/welcome.png" alt="drawing" width="500"/>
+</p>
+
+<h4 align="center">Authentication page</h4>
+
+<p align="center">
+ <img src="/src/pics/authentication.png" alt="drawing" width="500"/>
+</p>
+
+<h4 align="center">Events page</h4>
+
+<p align="center">
+ <img src="/src/pics/events.png" alt="drawing" width="500"/>
+</p>
+
+<h4 align="center">New Event</h4>
+
+<p align="center">
+ <img src="/src/pics/newEvent.png" alt="drawing" width="500"/>
+</p>
+
 <p>
-    <img src="/src/pics/welcome.png" hspace="10" >
+<img src="/src/pics/welcome.png" hspace="10" >
    <img src="/src/pics/authentication.png" hspace="10" >
    <img src="/src/pics/events.png" hspace="10" >
    <img src="/src/pics/newEvent.png" hspace="10" >
 </p>
+
+## Getting started
+
+This project actually contains two projects:
+
+- A React.js application (i.e., the frontend SPA)
+- A dummy backend API to which the React app can "talk" (to send + fetch data)
+
+You must run "npm install" in both project folders.
+
+Thereafter, you can start the dummy backend API server via "npm start" (inside the "backend-api" folder).
+The React app dev server is then also started via "npm start" (though inside the "react-frontend" folder).
+
+You MUST have both servers (backend + frontend) up and running for the projects to work.
+
+The dummy backend API does not use any external database - instead the dummy data is saved to an "events.json" file inside the project folder.
 
 ### Project Setup
 
@@ -49,19 +89,3 @@ This project branch represents an exercise in learning Authentication. Authentic
 
 - automatic logout after 1 hour (token is deleted from local storage)
 - setting the actual token expiration
-
-## Getting started
-
-This project actually contains two projects:
-
-- A React.js application (i.e., the frontend SPA)
-- A dummy backend API to which the React app can "talk" (to send + fetch data)
-
-You must run "npm install" in both project folders.
-
-Thereafter, you can start the dummy backend API server via "npm start" (inside the "backend-api" folder).
-The React app dev server is then also started via "npm start" (though inside the "react-frontend" folder).
-
-You MUST have both servers (backend + frontend) up and running for the projects to work.
-
-The dummy backend API does not use any external database - instead the dummy data is saved to an "events.json" file inside the project folder.
