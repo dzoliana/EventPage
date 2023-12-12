@@ -2,7 +2,14 @@
 
 ## Project Summary
 
-This project branch represents an exercise in learning Authentication.Authentication involves securing certain backend routes, making them inaccessible to anyone without authentication.
+This project branch represents an exercise in learning Authentication. Authentication involves securing certain backend routes, making them inaccessible to anyone without authentication.
+
+<p>
+    <img src="/frontend/src/pics/welcome.png" hspace="10" >
+   <img src="/frontend/src/pics/authentication.png" hspace="10" >
+   <img src="/frontend/src/pics/events.png" hspace="10" >
+   <img src="/frontend/src/pics/newEvent.png" hspace="10" >
+</p>
 
 ### Project Setup
 
