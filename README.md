@@ -28,13 +28,6 @@ This project branch represents an exercise in learning Authentication. Authentic
  <img src="/src/pics/newEvent.png" alt="drawing" width="500"/>
 </p>
 
-<p>
-<img src="/src/pics/welcome.png" hspace="10" >
-   <img src="/src/pics/authentication.png" hspace="10" >
-   <img src="/src/pics/events.png" hspace="10" >
-   <img src="/src/pics/newEvent.png" hspace="10" >
-</p>
-
 ## Getting started
 
 This project actually contains two projects:
