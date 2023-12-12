@@ -8,6 +8,10 @@ function EventItem({ event }) {
 
   function startDeleteHandler() {
     const proceed = window.confirm("Are you sure?");
+<<<<<<< HEAD
+=======
+
+>>>>>>> Authentication
     if (proceed) {
       submit(null, { method: "delete" });
     }
